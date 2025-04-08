@@ -1,5 +1,13 @@
-import unittest
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
+
+
 from roman_converter import decimal_to_roman
+
+import unittest
+
 
 class TestRomanConverter(unittest.TestCase):
     
